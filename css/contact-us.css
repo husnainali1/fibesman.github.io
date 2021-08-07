@@ -1,0 +1,109 @@
+/************** Contact Us **************/
+
+#contact-us .container .content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 60px;
+}
+
+#contact-us .container .left img {
+   border-bottom-right-radius: 79px;
+   margin-left: -125px;
+}
+
+#contact-us .container .right {
+   padding: 16px;
+   position: relative;
+}
+
+#contact-us .container .right .p-0 {
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 78px;
+   opacity: 3%;
+   position: absolute;
+   top: -15px;
+   left: -48px;
+}
+
+#contact-us .container .right .p-1 {
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 39px;
+   padding-left: 5px;
+}
+
+#contact-us .container .right .inner-content {
+   padding-left: 60px;
+   position: relative;
+}
+
+#contact-us .container .right .inner-content .sidebar {
+   height: 85px;
+   width: 1px;
+   background-color: red;
+   position: absolute;
+   top: 15px;
+   left: 55px;
+}
+#contact-us .container .right .inner-content .p-2 {
+   color: red;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 39px;
+   margin-bottom: -16px;
+   margin-left: 10px;
+}
+#contact-us .container .right .inner-content .p-3 {
+   line-height: 36px;
+   font-size: 16px;
+   font-weight: 500;
+}
+#contact-us .container .right .inner-content .p-3 a {
+   text-decoration: none;
+   color: black;
+}
+
+/************ Media Queries ************/
+
+@media (max-width: 991px) {
+   #contact-us .container .right {
+      padding: 0;
+   }
+}
+
+@media (max-width: 767px) {
+   .portfolio-heading .container img {
+      display: none;
+   }
+   .portfolio-heading .container p {
+      text-align: center;
+   }
+   .connect-us .container {
+      text-align: center;
+   }
+   .connect-us .container .content img {
+      height: 85px;
+   }
+   #contact-us .container .content {
+      grid-template-columns: repeat(1, 1fr);
+   }
+   #contact-us .container .right {
+      margin-top: 40px;
+   }
+   #contact-us .container .left img {
+      border-bottom-right-radius: 79px;
+      margin-left: 0px;
+      margin-bottom: 32px;
+   }
+   #contact-us .container .right .p-0 {
+      top: -16px;
+      left: 5px;
+   }
+   #contact-us .container .right .inner-content {
+      padding-left: 0px;
+   }
+   #contact-us .container .right .inner-content .sidebar {
+      left: 0px;
+   }
+}

@@ -1,0 +1,61 @@
+/************ Portfolio Header **************/
+
+.portfolio-heading {
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 39px;
+}
+
+.portfolio-heading .container {
+   position: relative;
+}
+.portfolio-heading .container img {
+   position: absolute;
+   top: -16px;
+   left: 0px;
+}
+
+/**************** Features ****************/
+
+.card {
+   border: none;
+}
+
+.card-title {
+   color: red;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 31px;
+}
+.card-text {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+}
+
+/**************** Connect Us ****************/
+
+.connect-us .container p {
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 32px;
+}
+
+.connect-us .container .content {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 25px;
+   position: relative;
+   padding-left: 30px;
+}
+
+.connect-us .container .content img {
+   position: absolute;
+   top: 16px;
+   left: -12px;
+   height: 62px;
+   padding-left: 25px;
+}
+.connect-us .container .content a {
+   color: red;
+}

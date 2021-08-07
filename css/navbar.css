@@ -1,0 +1,42 @@
+/* Navbar-Css */
+
+.navbar-toggler i {
+   color: #ed1c24;
+   font-size: 1.75rem;
+}
+
+.nav-link {
+   color: #ed1c24;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+   color: #ed1c24;
+}
+
+.navbar-nav {
+   margin-left: 40px;
+}
+
+.mail-sec a {
+   font-size: 14px;
+   font-weight: 600;
+   color: black;
+}
+
+.set-height {
+   margin-top: 5rem;
+}
+
+@media (max-width: 991px) {
+   .navbar-nav {
+      margin: 0;
+   }
+
+   .mail-sec {
+      margin: 1rem 0;
+   }
+}

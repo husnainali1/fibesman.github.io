@@ -1,0 +1,52 @@
+/* Footer-CSS */
+
+.footer-back {
+   background: #000000;
+}
+
+.footer-back .contct p {
+   font-size: 16px;
+   color: #ffffff;
+}
+
+.footer-back .contct span {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-back .icons {
+   display: flex;
+   justify-content: center;
+   padding: 0;
+}
+
+.footer-back .icons li {
+   margin: 0 1rem;
+}
+
+.footer-back .icons li a i {
+   color: #ffffff;
+   font-size: 18px;
+}
+
+.footer-back .copyrite {
+   text-align: center;
+}
+
+.footer-back .copyrite p {
+   color: rgba(255, 255, 255, 0.6);
+   font-size: 14px;
+}
+
+.footer-back .copyrite p span {
+   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+   .footer-img-div {
+      display: none;
+   }
+
+   .footer-back {
+      padding: 2rem 0;
+   }
+}

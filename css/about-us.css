@@ -1,0 +1,207 @@
+
+/* About-Us-CSS */
+
+.about-us {
+   margin: 3rem 0;
+}
+
+.about-us .set-wid {
+   padding: 0 3rem;
+}
+
+.about-us .abt-cont {
+   position: relative;
+}
+
+.about-us .abt-cont p {
+   font-size: 26px;
+   font-weight: bold;
+   color: #000000;
+   padding-top: 28px;
+}
+
+.about-us .abt-cont h1 {
+   text-transform: uppercase;
+   font-size: 64px;
+   color: #333333;
+   opacity: 0.03;
+   line-height: 39px;
+   font-weight: bold;
+   position: absolute;
+   top: 0;
+   left: -1rem;
+}
+
+.about-us .investment {
+   position: relative;
+   margin-top: 1rem;
+}
+
+.about-us .investment p {
+   font-size: 14px;
+   color: #000000;
+   padding: 0 2rem;
+   line-height: 25.2px;
+}
+
+.about-us .investment div {
+   width: 1px;
+   height: 85px;
+   background: #ed1c24;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.about-us img {
+   border-radius: 0px 0px 0px 80px;
+}
+
+@media (max-width: 991px) {
+   .about-us .set-wid {
+      padding: 0 3.5rem;
+   }
+
+   .about-us img {
+      margin: 2rem 0;
+   }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+   .about-us .set-wid {
+      padding: 0 0.5rem;
+   }
+}
+
+/* VissionAndMission-CSS */
+
+.vission-mission {
+   margin: 4rem 0;
+}
+
+.vission-mission .set-wid {
+   padding: 0 3rem;
+}
+
+.vission-mission .abt-cont {
+   position: relative;
+}
+
+.vission-mission .abt-cont p {
+   font-size: 26px;
+   font-weight: bold;
+   color: #000000;
+   padding-top: 28px;
+}
+
+.vission-mission .abt-cont h1 {
+   text-transform: uppercase;
+   font-size: 42px;
+   color: #333333;
+   opacity: 0.03;
+   line-height: 39px;
+   font-weight: bold;
+   position: absolute;
+   top: 0;
+   left: -1rem;
+}
+
+.vission-mission .investment {
+   position: relative;
+   margin-top: 1rem;
+}
+
+.vission-mission .investment p {
+   font-size: 14px;
+   color: #000000;
+   padding: 0 2rem;
+   line-height: 25.2px;
+}
+
+.vission-mission .investment div {
+   width: 1px;
+   height: 85px;
+   background: #ed1c24;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.vission-mission img {
+   border-radius: 0px 0px 0px 80px;
+}
+
+@media (max-width: 991px) {
+   .vission-mission .set-wid {
+      padding: 0 3.5rem;
+   }
+
+   .vission-mission img {
+      margin: 2rem 0;
+   }
+}
+
+@media (max-width: 767px) {
+   .vission-mission .abt-cont h1 {
+      font-size: 42px;
+   }
+}
+
+@media (max-width: 575px) {
+   .vission-mission .set-wid {
+      padding: 0 0.5rem;
+   }
+}
+
+/* Core-Team-CSS */
+
+.core-team {
+   margin: 2rem 0;
+}
+
+.core-team .team-member h1 {
+   font-size: 16px;
+   font-weight: 700;
+   color: #000000;
+   margin: 0.5rem 0;
+}
+
+.core-team .team-member p {
+   font-size: 14px;
+   color: #000000;
+   line-height: 25.2px;
+}
+
+.core-team .content {
+   padding: 0 3rem;
+}
+
+.core-team .content h1 {
+   font-size: 26px;
+   font-weight: 700;
+   color: #333333;
+}
+
+.core-team .content p {
+   font-size: 14px;
+   line-height: 25.2px;
+   color: #000000;
+}
+
+.core-team .content .cont-div {
+   position: relative;
+   padding: 0 1rem;
+   margin: 1.5rem 0;
+}
+
+.core-team .content .cont-div div {
+   width: 1px;
+   height: 91px;
+   background: #ed1c24;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
